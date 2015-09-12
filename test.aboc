@@ -1,0 +1,22 @@
+// Comment
+int x = 4
+
+#include <stdio.h>
+
+int square(int num) /* This does stuff
+really cool stuff */
+	if(num > 3) // This doesn't
+		if(num < 7)
+			return num * num
+	else
+		return num * num + 4
+
+int main(int argc, char **argv)
+	printf("Hello world!\nThe square of %d is %d\n", 3, square(3))
+	4
+
+	
+	6
+	7
+	
+	return 0
